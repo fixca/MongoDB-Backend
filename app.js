@@ -4,7 +4,7 @@ const { connect } = require('./mongodb');
 require('dotenv').config();
 
 const app = express();
-const port = 6969;
+const port = process.env.PORT;
 
 const apiRouter = require('./routers');
 

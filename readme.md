@@ -30,3 +30,27 @@ Result
 |------|---|---|
 |status|Request 처리 후 상태 코드를 반환합니다.<br>성공시 0, 오류 발생 혹은 잘못된 요청시 1을 반환합니다.|int|
 |result|에러 메시지가 표시됩니다.<br>요청이 실패했을때만 표시됩니다.|string|
+
+## 3. 설치
+```
+.env 파일 생성 후 다음 변수를 설정해주세요.
+
+COCOA_KEY
+PORT
+
+COCOA_KEY는 string 타입 입니다.
+PORT는 int 타입 입니다.
+
+MongoDB의 데이터베이스 이름은 kitpvp 입니다.
+
+npm install
+npm start
+```
+
+## 4. 스크린샷
+성공 스크린샷
+<img src="https://cdn.discordapp.com/attachments/720162481506615317/995931840164679750/unknown.png">
+<img src="https://cdn.discordapp.com/attachments/720162481506615317/995932536431722577/unknown.png">
+
+에러 감지 스크린샷
+<img src="https://cdn.discordapp.com/attachments/720162481506615317/995932901763989564/unknown.png">
